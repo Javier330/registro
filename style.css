@@ -1,0 +1,208 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    flex-direction: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
+    align-items: center;
+    background-color: #2d9cdb;
+    padding: 50px 20px; /* Ajusta el padding para un mejor espaciado */
+    color: #fff;
+}
+
+header .text {
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #2ecc71;
+}
+
+/* Estilos para el formulario de registro */
+#registro .form-group {
+    margin-bottom: 20px;
+}
+
+#registro label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#registro input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#registro input:focus {
+    border-color: #2d9cdb;
+    outline: none;
+}
+
+#registro button {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 100%;
+}
+
+#registro button:hover {
+    background-color: #2ecc71;
+}
+
+/* Estilo para el enlace a la página de inicio de sesión */
+#registro p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#registro p a {
+    color: #2d9cdb;
+    text-decoration: none;
+}
+
+#registro p a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de público objetivo */
+#target-audience {
+    padding: 60px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+#target-audience h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.audience-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.audience-cards .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.audience-cards .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.audience-cards .card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.audience-cards .card p {
+    font-size: 1rem;
+}
+
+/* Sección de planes */
+.plans-section {
+    background-color: #fafafa;
+    padding: 60px 0;
+}
+
+.plans .plan {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.plans .plan h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.plans .plan .price {
+    font-size: 2.5rem;
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+.plans .plan a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.discount {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2d9cdb;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
+}
