@@ -44,9 +44,9 @@
                 <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" required placeholder="Confirma tu contraseña">
             </div>
             <div class="form-group">
-                <button type="submit" class="cta-button" id="crear-cuenta-btn">Crear Cuenta</button>
+                <button type="button" class="cta-button" id="crear-cuenta-btn">Crear Cuenta</button>
             </div>
-        </form action="https://javier330.github.io/Registro.html/" method="POST" id="registro-form">
+        </form>
         <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
     </div>
 </section>
@@ -60,10 +60,9 @@
 
 <!-- Enlace al archivo JS -->
 <script>
-    // Interceptar el botón "Crear Cuenta" para redirigir
-    document.getElementById('crear-cuenta-btn').addEventListener('click', function(event) {
-        event.preventDefault(); // Evitar envío del formulario
-        window.location.href = 'https://javier330.github.io/Registro.html/'; // Redirigir a la página deseada
+    // Interceptar el clic del botón "Crear Cuenta"
+    document.getElementById('crear-cuenta-btn').addEventListener('click', function() {
+        window.location.href = 'https://javier330.github.io/Registro.html/';
     });
 </script>
 <script src="script.js"></script>
